@@ -8,6 +8,7 @@ function searchRange( nums, target){
     let result = [-1 , -1];
   
     while( start <= end){
+        
         mid = Math.floor( start / 2 + end / 2);
         if( nums[mid] < target){
             start = mid + 1 ;

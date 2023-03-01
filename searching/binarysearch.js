@@ -4,7 +4,8 @@ const target = 8;
 function binarysearch(nums , target){
     let start = 0;
     let end = nums.length - 1;
-    let mid=[];
+    let mid;
+
     while( start <= end){
         mid = Math.floor(( start + end) / 2);
         if( nums[mid] === target){
@@ -16,7 +17,7 @@ function binarysearch(nums , target){
         }
     }
 
-    return [-1,-1];
+    return -1;
 }
 
 console.log(binarysearch( nums, target));
