@@ -1,3 +1,9 @@
-const x= 4;
+const x = 8 ;
 
-const 
+function findsqure(x){
+    let squrevalue = Math.floor( Math.sqrt(x));
+    return squrevalue;
+}
+
+console.log(findsqure(x));
+
