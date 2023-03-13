@@ -1,0 +1,5 @@
+Binary search is a technique to find the the accurate value in too fasted time and binary search can work only ascending or decending order data.
+So you should check your array or likedlist value order if the value is following ascending or decending then we can apply binary search easily to
+find the targeted value.
+
+
