@@ -1,0 +1,13 @@
+Bubble Sort
+****************
+Buddle sort for ascending order:
+
+The Bubble Sort is an efficient sorting algorithm that works in O(n log n) time, where n is the number of items to be sorted. 
+The first iteration of the Bubble Sort sorts the input item at index 0 into ascending order, 
+and then repeats this process until all the inputs have been sorted
+
+Buddle sort for decending order: 
+
+Bubble sort is a simple sorting algorithm that compares adjacent elements and swaps them if order is wrong. 
+Descending order :- Numbers are said to be in descending order when they are arranged from largest to smallest number. 
+Such as 21, 17, 13, 9 and 3 are arranged in descending order.
