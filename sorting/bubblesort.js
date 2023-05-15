@@ -1,6 +1,5 @@
 // bubble sort is technique for sorting ascending or descending order data by comparing there sibling data
-
-
+// Basically bubble sort work .. find smallest element from sibling element and swap
 // so let's write bubble sort code for Ascending Order Data
 
 let arr = [ 9, 7, 8, 4, 65, 4, 5, 5, 84, 8, 99, 10, 11, 144, 150];
