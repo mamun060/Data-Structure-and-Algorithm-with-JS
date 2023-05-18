@@ -1,4 +1,4 @@
-// two some algorith
+// two sum algorith
 
 let arr = [2,7,11,15], target = 9; 
 
