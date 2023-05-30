@@ -8,7 +8,7 @@ function selectionSort(arr){
         
         // find the largest element from the array
         for( let  j = i ; j < arr.length ; j++){
-            if( arr[j] > arr[minimumIndex] ){
+            if( arr[j] < arr[minimumIndex] ){
                 minimumIndex = j;
             }
         }
