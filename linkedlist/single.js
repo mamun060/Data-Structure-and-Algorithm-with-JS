@@ -41,7 +41,7 @@ class LinkedList{
             this.append(value);
             return 
         }
-        
+
         let node = new Node(value);
         let prevNode = this.findNode(n-1);
         const temp = prevNode.next;
@@ -63,6 +63,14 @@ class LinkedList{
 
         return data;
     }
+
+    print(){
+        let data = this.head;
+        while(data){
+            console.log(data.value);
+            data = data.next
+        }
+    }
 }
 
 
@@ -70,4 +78,5 @@ let list = new LinkedList(10);
 list.appendAtPosition(30,1)
 list.prepend(50)
 
-console.log(list);
+// console.log(list);
+list.print()
