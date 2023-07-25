@@ -31,11 +31,43 @@ class LinkedList{
         this.head = node;
         this.length++;
     }
+
+    appendAtPosition(value, n){
+        if(n === 1 ){
+            this.prepend(value);
+            return;
+        }
+        if( n === this.length + 1){
+            this.append(value);
+            return 
+        }
+        
+        let node = new Node(value);
+        let prevNode = this.findNode(n-1);
+        const temp = prevNode.next;
+        prevNode.next = node;
+        node.next = temp;
+        this.length++;
+    }
+
+    findNode(n){
+        let data = this.head;
+        let count = 0;
+        while(true){
+            count++;
+            if(count === n){
+                break;
+            }
+            data = data.next;
+        }
+
+        return data;
+    }
 }
 
+
 let list = new LinkedList(10);
-list.append(20)
-list.append(30)
-list.prepend(40)
+list.appendAtPosition(30,1)
+list.prepend(50)
 
 console.log(list);
