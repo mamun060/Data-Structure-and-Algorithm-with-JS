@@ -9,7 +9,6 @@ function binarysearch(arr, target){
     let mid;
     
     for( let i = 0; i<= arr.length ; i++ ){
-
         mid = Math.floor( ( start + end ) / 2 );
         
         if( arr[mid] === target){
