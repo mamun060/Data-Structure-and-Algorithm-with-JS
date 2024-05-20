@@ -23,4 +23,4 @@ function binarysearch(arr, target){
     return -1;
 }
 
-console.log(  binarysearch(arr, target ) );
+console.log(  binarysearch(arr, target ) );   
