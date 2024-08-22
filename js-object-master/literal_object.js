@@ -23,3 +23,16 @@ obj.upzilla = "Sadar";
 obj.status = "Married";
 
 console.table(obj)
+
+// By using an Object constructor
+function student(id, name, reg, city, subject){
+    this.id = id;
+    this.name = name;
+    this.reg = reg;
+    this.city = city;
+    this.subject = subject;
+}
+
+let obj2 = new student(1001, "Raju" , 115602, "Dhaka", "CSE");
+
+console.table(obj2)
