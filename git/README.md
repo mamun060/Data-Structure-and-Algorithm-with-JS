@@ -14,4 +14,3 @@
 ### 04. git checkout -b branch_name == this command used for create new branch name 
 ### 05. git commit == for show merge change and commit anything 
 ### 06. git log --oneline ==> this command is used to show all commit list
-### 07. 
