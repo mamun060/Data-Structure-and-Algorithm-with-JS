@@ -4,9 +4,11 @@
     return a+b;
 }
 
+// receive function as argument and return function 
 function manipulate( a, b, func){
     return func(a,b);
 }
 
 const finalResult = manipulate( 5, 6, add);
 console.log(finalResult);
+
