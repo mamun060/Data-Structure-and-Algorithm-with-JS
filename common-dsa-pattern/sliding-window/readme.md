@@ -2,6 +2,9 @@
 
 The **Sliding Window** pattern is a strategy used to reduce the time complexity of problems that involve finding a sub-range (subarray or substring) that meets certain criteria.
 
+**Bangla**:
+স্লাইডিং উইন্ডো হলো এমন একটি টেকনিক যা অ্যারে বা স্ট্রিংয়ের একটি নির্দিষ্ট অংশের (উইন্ডো) ওপর কাজ করতে ব্যবহৃত হয়। সাধারণত নেস্টেড লুপ ব্যবহার করলে কোড ধীরগতিতে ($O(n^2)$) কাজ করে, কিন্তু এই টেকনিকে আমরা একটি "জানালা" বা উইন্ডোকে সামনের দিকে সরিয়ে নিয়ে যাই, ফলে মাত্র একবার পুরো ডাটা ট্রাভার্স করেই কাজ শেষ করা যায় ($O(n)$ complexity)।
+
 ## 🚀 Why use it?
 - **Efficiency:** Converts $O(n^2)$ or $O(n^3)$ problems into $O(n)$.
 - **Optimization:** Avoids redundant calculations by reusing the result of the previous window.
