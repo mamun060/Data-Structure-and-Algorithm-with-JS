@@ -76,7 +76,7 @@ console.log(maxSubArraySum(arr1)); // Output: 6 ([4, -1, 2, 1])
 
 ***2. Fixed Size Sliding Window***
 - Use Case: When you need to perform calculations on subarrays of a fixed size (k) (e.g., Average/Max sum of every 3 elements).
-
+- স্লাইডিং উইন্ডো ম্যাক্সিমাম মানে হলো ওই উইন্ডোর মধ্যে সবচাইতে বড় সংখ্যাটি খুঁজে বের করা, যোগফল নয়।
 ```JavaScript
 /**
  * @param {number[]} arr
