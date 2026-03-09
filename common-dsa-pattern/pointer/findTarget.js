@@ -1,12 +1,9 @@
-// two pointer pattern means using two pointers to iterate through a data structure,
-// often used to solve problems involving arrays or linked lists.
-
-function twoPointer(arr, target){
+function findTargetvalue(arr, target){
     let left = 0;
     let right = arr.length - 1;
-    while (left < right){
+    while( left < right ){
         let sum = arr[left] + arr[right];
-        if (sum === target){
+        if( sum === target){
             return [left, right];
         } else if (sum < target){
             left++;
@@ -19,5 +16,5 @@ function twoPointer(arr, target){
 
 const numbers = [2, 7, 11, 15];
 const target = 9;
-const result = twoPointer(numbers, target);
+const result = findTargetvalue(numbers, target);
 console.log(result); 
